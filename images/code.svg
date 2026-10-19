@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" role="img" aria-label="Browser window showing code">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#ffe2a8"/>
+<stop offset="1" stop-color="#ffc9a8"/>
+</linearGradient>
+</defs>
+<rect width="600" height="320" fill="url(#bg)"/>
+<circle cx="80" cy="270" r="70" fill="#ff6b3d" opacity="0.18"/>
+<!-- browser -->
+<g transform="translate(110 46)">
+<rect x="6" y="10" width="380" height="240" rx="14" fill="#b45309" opacity="0.18"/>
+<rect x="0" y="0" width="380" height="240" rx="14" fill="#1c1917"/>
+<rect x="0" y="0" width="380" height="34" rx="14" fill="#292524"/>
+<rect x="0" y="20" width="380" height="14" fill="#292524"/>
+<circle cx="22" cy="17" r="6" fill="#ff6b3d"/>
+<circle cx="42" cy="17" r="6" fill="#f5a524"/>
+<circle cx="62" cy="17" r="6" fill="#a3a3a3"/>
+<rect x="90" y="9" width="200" height="16" rx="8" fill="#44403c"/>
+<!-- code lines -->
+<g font-family="Consolas, Menlo, monospace" font-size="15">
+<text x="22" y="66" fill="#f5a524">&lt;section</text><text x="102" y="66" fill="#fbc672"> id="projects"</text><text x="226" y="66" fill="#f5a524">&gt;</text>
+<text x="44" y="94" fill="#f5a524">&lt;h2&gt;</text><text x="88" y="94" fill="#fdfbf7">Projects</text><text x="160" y="94" fill="#f5a524">&lt;/h2&gt;</text>
+<text x="44" y="122" fill="#f5a524">&lt;article</text><text x="116" y="122" fill="#fbc672"> class="project"</text><text x="252" y="122" fill="#f5a524">&gt;</text>
+<text x="22" y="206" fill="#f5a524">&lt;/section&gt;</text>
+</g>
+<rect x="66" y="140" width="150" height="8" rx="4" fill="#57534e"/>
+<rect x="66" y="158" width="210" height="8" rx="4" fill="#57534e"/>
+<rect x="44" y="176" width="90" height="8" rx="4" fill="#ff6b3d" opacity="0.7"/>
+<rect x="128" y="200" width="10" height="18" fill="#f5a524"/>
+</g>
+<!-- git branch icon -->
+<g transform="translate(530 80)" stroke="#1c1917" stroke-width="5" fill="none">
+<circle cx="0" cy="0" r="10" fill="#fdfbf7"/>
+<circle cx="0" cy="80" r="10" fill="#fdfbf7"/>
+<circle cx="40" cy="30" r="10" fill="#f5a524"/>
+<path d="M0 10 L0 70 M40 40 Q40 60 10 74"/>
+</g>
+</svg>

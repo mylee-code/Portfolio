@@ -1,56 +1,129 @@
-# Portfolio
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport"
-content="width=device-width, initial-scale=1.0">
-<title>Your Name - Portfolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Myles Lee — aspiring software developer and data analyst, intern at i.c.stars.">
+<title>Myles Lee - Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header>
 <nav>
+<a href="#hero" class="logo">ML<span>.</span></a>
+<div class="links">
 <a href="#about">About</a>
+<a href="#skills">Skills</a>
 <a href="#projects">Projects</a>
 <a href="#contact">Contact</a>
+</div>
 </nav>
 </header>
+
 <main>
 <section id="hero">
+<div class="hero-text">
+<p class="eyebrow">Hi, I'm</p>
 <h1>Myles Lee</h1>
-<p class="tagline">
-Aspiring Software Developer - i.c.stars
-</p>
-</section>
-<section id="about">
-<h2>About Me</h2>
-<p>Currently an intern at I.C. Stars. Aspiring to learn business, and use my skills to persue a career in data analyzing.</p>
-</section>
-<section id="projects">
-<h2>Projects</h2>
-<div class="project">
-<h3>Motion Picture Class Project</h3>
-<p>Stop motion picture short film I made by myself in High.</p>
+<p class="tagline">Aspiring software developer &amp; data analyst, currently building my skills at <strong>i.c.stars</strong>.</p>
+<div class="cta">
+<a href="#projects" class="btn primary">See my work</a>
+<a href="#contact" class="btn ghost">Get in touch</a>
 </div>
-<div class="project">
-<h3>Current Car Project</h3>
-<p>Recently bought a new car, I've repaired the axle, replacing car battery and I am getting my brake pads fixed.</p>
+</div>
+<div class="hero-photo">
+<img src="images/profile.jpg" alt="Myles Lee kayaking through a canyon" width="400" height="400" onerror="this.onerror=null;this.src='images/profile.svg';">
 </div>
 </section>
-<section id="contact">
-<h2>Contact</h2>
-<p>Email:
-<a href="mailto:mylee@icstars.org">My Email</a>
-</p>
-<p>GitHub:
-<a href="https://github.com/mylee-code">
-contact me here</a>
-</p>
+
+<section id="about" class="reveal">
+<h2><span class="num">01</span>About Me</h2>
+<div class="about-grid">
+<div class="about-text">
+<p>I'm currently an intern at i.c.stars, where I'm learning both the technology and the business side of how organizations run. My goal is to use those skills to pursue a career in data analysis: turning raw information into decisions people can act on.</p>
+<p>Outside of tech, I like working with my hands. Whether it's a short film or a car repair, I enjoy figuring out how things fit together.</p>
+</div>
+<figure class="about-photo">
+<img src="images/engines.jpg" alt="Vintage aircraft engines on display stands" width="1125" height="2000" loading="lazy" onerror="this.closest('figure').remove();">
+<figcaption>Checking out vintage aircraft engines up close.</figcaption>
+</figure>
+</div>
+</section>
+
+<section id="skills" class="reveal">
+<h2><span class="num">02</span>Skills &amp; Learning</h2>
+<div class="skill-groups">
+<div class="skill-group">
+<h3>Building</h3>
+<ul class="chips">
+<li>HTML</li>
+<li>CSS</li>
+<li>Git &amp; GitHub</li>
+<li>Branches &amp; pull requests</li>
+</ul>
+</div>
+<div class="skill-group">
+<h3>Business &amp; Operations</h3>
+<ul class="chips">
+<li>Incident vs. problem management</li>
+<li>Scenario planning</li>
+<li>Team collaboration</li>
+<li>Presenting</li>
+</ul>
+</div>
+</div>
+</section>
+
+<section id="projects" class="reveal">
+<h2><span class="num">03</span>Projects</h2>
+<div class="project-grid">
+<article class="project">
+<img class="project-img" src="images/film.jpg" alt="A frame from my stop-motion short film: two building-block figures facing off" width="600" height="320" loading="lazy" onerror="this.onerror=null;this.src='images/film.svg';this.alt='Illustration of a film strip and clapperboard';">
+<h3>Stop-Motion Short Film</h3>
+<p>A stop-motion short I made on my own for my high school motion picture class. I handled the concept, set-up, frame-by-frame shooting and editing.</p>
+<ul class="tags"><li>Film</li><li>Editing</li><li>Solo project</li></ul>
+</article>
+<article class="project">
+<img class="project-img" src="images/car.jpg" alt="The car I'm restoring" width="600" height="320" loading="lazy" onerror="this.onerror=null;this.src='images/car.svg';this.alt='Illustration of a car and a wrench';">
+<h3>Car Restoration</h3>
+<p>I recently bought a car and have been fixing it up: I repaired the axle, replaced the battery and I'm now getting the brake pads done.</p>
+<ul class="tags"><li>Hands-on</li><li>Troubleshooting</li><li>In progress</li></ul>
+</article>
+<article class="project">
+<img class="project-img" src="images/portfolio.jpg" alt="My desk setup with this portfolio's code open in VS Code" width="600" height="320" loading="lazy" onerror="this.onerror=null;this.src='images/code.svg';this.alt='Illustration of a browser window showing HTML code';">
+<h3>This Portfolio</h3>
+<p>Hand-built with HTML and CSS and version-controlled with Git. It's a living project that grows as I learn.</p>
+<ul class="tags"><li>HTML</li><li>CSS</li><li>Git</li></ul>
+</article>
+</div>
+</section>
+
+<section id="contact" class="reveal">
+<h2><span class="num">04</span>Contact</h2>
+<p>I'm always open to connecting, whether it's about opportunities, projects or just talking tech.</p>
+<div class="contact-links">
+<a href="mailto:mylee@icstars.org" class="btn primary">✉ mylee@icstars.org</a>
+<a href="https://github.com/mylee-code" class="btn ghost" target="_blank" rel="noopener">GitHub ↗</a>
+</div>
 </section>
 </main>
+
 <footer>
-<p>&copy; 2026 Your Name</p>
+<p>&copy; 2026 Myles Lee · Built by hand with HTML &amp; CSS</p>
 </footer>
+
+<script>
+// Fade sections in as they scroll into view
+document.documentElement.classList.add('js');
+const io = new IntersectionObserver((entries) => {
+entries.forEach((e) => {
+if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); }
+});
+}, { threshold: 0.12 });
+document.querySelectorAll('.reveal').forEach((el) => io.observe(el));
+</script>
 </body>
 </html>

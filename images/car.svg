@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" role="img" aria-label="Car with a wrench">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#fff4e3"/>
+<stop offset="1" stop-color="#ffe2a8"/>
+</linearGradient>
+<linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#ff8a4c"/>
+<stop offset="1" stop-color="#ff6b3d"/>
+</linearGradient>
+</defs>
+<rect width="600" height="320" fill="url(#bg)"/>
+<circle cx="490" cy="80" r="46" fill="#f5a524" opacity="0.35"/>
+<!-- ground -->
+<rect x="0" y="252" width="600" height="68" fill="#ece6dc"/>
+<rect x="40" y="276" width="70" height="6" rx="3" fill="#fdfbf7"/>
+<rect x="170" y="276" width="70" height="6" rx="3" fill="#fdfbf7"/>
+<rect x="300" y="276" width="70" height="6" rx="3" fill="#fdfbf7"/>
+<rect x="430" y="276" width="70" height="6" rx="3" fill="#fdfbf7"/>
+<!-- car -->
+<g transform="translate(110 112)">
+<path d="M40 70 L95 22 Q105 14 120 14 L250 14 Q268 14 280 26 L320 66 L360 74 Q385 80 385 104 L385 122 Q385 132 375 132 L10 132 Q0 132 0 122 L0 96 Q0 74 22 72 Z" fill="url(#body)"/>
+<path d="M108 30 L128 26 L185 26 L185 66 L72 66 Z" fill="#fdfbf7" opacity="0.92"/>
+<path d="M200 26 L248 26 Q260 26 268 34 L298 66 L200 66 Z" fill="#fdfbf7" opacity="0.92"/>
+<rect x="190" y="26" width="6" height="104" fill="#b45309" opacity="0.5"/>
+<rect x="350" y="86" width="26" height="12" rx="4" fill="#ffd27a"/>
+<rect x="6" y="86" width="18" height="12" rx="4" fill="#b45309"/>
+<rect x="150" y="78" width="22" height="5" rx="2" fill="#b45309" opacity="0.7"/>
+<rect x="240" y="78" width="22" height="5" rx="2" fill="#b45309" opacity="0.7"/>
+<g>
+<circle cx="85" cy="132" r="34" fill="#1c1917"/><circle cx="85" cy="132" r="15" fill="#d6d3d1"/><circle cx="85" cy="132" r="5" fill="#57534e"/>
+<circle cx="305" cy="132" r="34" fill="#1c1917"/><circle cx="305" cy="132" r="15" fill="#d6d3d1"/><circle cx="305" cy="132" r="5" fill="#57534e"/>
+</g>
+</g>
+<!-- wrench -->
+<g transform="translate(470 150) rotate(40)">
+<rect x="-7" y="0" width="14" height="96" rx="7" fill="#57534e"/>
+<path d="M-22 -6 A24 24 0 1 1 22 -6 L10 -6 L10 -24 L-10 -24 L-10 -6 Z" fill="#57534e"/>
+</g>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" role="img" aria-label="Film strip and clapperboard">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#fff4e3"/>
+<stop offset="1" stop-color="#ffd9b8"/>
+</linearGradient>
+</defs>
+<rect width="600" height="320" fill="url(#bg)"/>
+<!-- film strip -->
+<g transform="rotate(-8 300 160)">
+<rect x="-20" y="105" width="640" height="110" fill="#1c1917"/>
+<g fill="#fdfbf7">
+<rect x="0" y="113" width="14" height="10" rx="2"/><rect x="40" y="113" width="14" height="10" rx="2"/><rect x="80" y="113" width="14" height="10" rx="2"/><rect x="120" y="113" width="14" height="10" rx="2"/><rect x="160" y="113" width="14" height="10" rx="2"/><rect x="200" y="113" width="14" height="10" rx="2"/><rect x="240" y="113" width="14" height="10" rx="2"/><rect x="280" y="113" width="14" height="10" rx="2"/><rect x="320" y="113" width="14" height="10" rx="2"/><rect x="360" y="113" width="14" height="10" rx="2"/><rect x="400" y="113" width="14" height="10" rx="2"/><rect x="440" y="113" width="14" height="10" rx="2"/><rect x="480" y="113" width="14" height="10" rx="2"/><rect x="520" y="113" width="14" height="10" rx="2"/><rect x="560" y="113" width="14" height="10" rx="2"/>
+<rect x="0" y="197" width="14" height="10" rx="2"/><rect x="40" y="197" width="14" height="10" rx="2"/><rect x="80" y="197" width="14" height="10" rx="2"/><rect x="120" y="197" width="14" height="10" rx="2"/><rect x="160" y="197" width="14" height="10" rx="2"/><rect x="200" y="197" width="14" height="10" rx="2"/><rect x="240" y="197" width="14" height="10" rx="2"/><rect x="280" y="197" width="14" height="10" rx="2"/><rect x="320" y="197" width="14" height="10" rx="2"/><rect x="360" y="197" width="14" height="10" rx="2"/><rect x="400" y="197" width="14" height="10" rx="2"/><rect x="440" y="197" width="14" height="10" rx="2"/><rect x="480" y="197" width="14" height="10" rx="2"/><rect x="520" y="197" width="14" height="10" rx="2"/><rect x="560" y="197" width="14" height="10" rx="2"/>
+</g>
+<!-- frames: a little figure walking across -->
+<g>
+<rect x="20" y="131" width="120" height="58" rx="3" fill="#f5a524"/>
+<rect x="160" y="131" width="120" height="58" rx="3" fill="#f7b03e"/>
+<rect x="300" y="131" width="120" height="58" rx="3" fill="#f9bb58"/>
+<rect x="440" y="131" width="120" height="58" rx="3" fill="#fbc672"/>
+</g>
+<g fill="#1c1917">
+<circle cx="70" cy="146" r="6"/><rect x="66" y="152" width="8" height="18" rx="3"/><rect x="62" y="168" width="5" height="14" rx="2" transform="rotate(15 64 168)"/><rect x="73" y="168" width="5" height="14" rx="2" transform="rotate(-15 75 168)"/>
+<circle cx="220" cy="146" r="6"/><rect x="216" y="152" width="8" height="18" rx="3"/><rect x="214" y="168" width="5" height="14" rx="2"/><rect x="221" y="168" width="5" height="14" rx="2"/>
+<circle cx="370" cy="146" r="6"/><rect x="366" y="152" width="8" height="18" rx="3"/><rect x="362" y="168" width="5" height="14" rx="2" transform="rotate(-15 364 168)"/><rect x="373" y="168" width="5" height="14" rx="2" transform="rotate(15 375 168)"/>
+<circle cx="510" cy="146" r="6"/><rect x="506" y="152" width="8" height="18" rx="3"/><rect x="504" y="168" width="5" height="14" rx="2"/><rect x="511" y="168" width="5" height="14" rx="2"/>
+</g>
+</g>
+<!-- clapperboard -->
+<g transform="translate(430 205) rotate(6)">
+<rect x="0" y="22" width="130" height="84" rx="6" fill="#1c1917"/>
+<rect x="12" y="44" width="106" height="4" fill="#57534e"/>
+<rect x="12" y="62" width="70" height="4" fill="#57534e"/>
+<rect x="12" y="80" width="88" height="4" fill="#57534e"/>
+<g transform="rotate(-14 0 22)">
+<rect x="0" y="0" width="130" height="22" rx="4" fill="#fdfbf7" stroke="#1c1917" stroke-width="3"/>
+<path d="M18 0 L34 22 M50 0 L66 22 M82 0 L98 22 M114 0 L128 19" stroke="#1c1917" stroke-width="10"/>
+</g>
+</g>
+</svg>

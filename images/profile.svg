@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Myles Lee">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#ffd27a"/>
+<stop offset="0.55" stop-color="#f5a524"/>
+<stop offset="1" stop-color="#ff6b3d"/>
+</linearGradient>
+<radialGradient id="shine" cx="0.3" cy="0.25" r="0.7">
+<stop offset="0" stop-color="#ffffff" stop-opacity="0.45"/>
+<stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+</radialGradient>
+</defs>
+<rect width="400" height="400" fill="url(#bg)"/>
+<rect width="400" height="400" fill="url(#shine)"/>
+<circle cx="330" cy="70" r="90" fill="#ffffff" opacity="0.12"/>
+<circle cx="60" cy="350" r="120" fill="#b45309" opacity="0.12"/>
+<text x="200" y="232" text-anchor="middle" font-family="Space Grotesk, Arial, sans-serif" font-size="132" font-weight="700" fill="#1c1917">ML</text>
+</svg>
