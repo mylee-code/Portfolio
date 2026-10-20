@@ -226,6 +226,29 @@ padding: 0.35rem 0.8rem;
 border-radius: 999px;
 font-size: 0.88rem;
 }
+.chips li:has(.chip) { background: none; border: 0; padding: 0; }
+.chip {
+font: inherit;
+color: var(--ink);
+background: var(--surface-2);
+border: 1px solid var(--border);
+padding: 0.35rem 0.8rem;
+border-radius: 999px;
+cursor: pointer;
+transition: border-color 0.2s, background 0.2s, transform 0.2s;
+}
+.chip:hover { border-color: var(--accent); transform: translateY(-2px); }
+.chip:focus-visible { outline: 2px solid var(--accent-ink); outline-offset: 2px; }
+.chip[aria-expanded="true"] { background: var(--accent); border-color: var(--accent); }
+.skill-detail {
+margin-top: 1rem;
+padding: 0.85rem 1rem;
+background: var(--surface-2);
+border-left: 3px solid var(--accent);
+border-radius: 8px;
+font-size: 0.92rem;
+color: var(--muted);
+}
 
 /* Projects */
 .project-grid {

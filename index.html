@@ -59,20 +59,22 @@
 <div class="skill-group">
 <h3>Building</h3>
 <ul class="chips">
-<li>HTML</li>
-<li>CSS</li>
-<li>Git &amp; GitHub</li>
-<li>Branches &amp; pull requests</li>
+<li><button type="button" class="chip" aria-expanded="false" data-desc="I write semantic HTML to structure pages. This portfolio is hand-coded from scratch.">HTML</button></li>
+<li><button type="button" class="chip" aria-expanded="false" data-desc="I style layouts with CSS, including flexbox, grid, custom properties, and responsive design.">CSS</button></li>
+<li><button type="button" class="chip" aria-expanded="false" data-desc="I use Git to track my work and GitHub to host it. This site is deployed with GitHub Pages.">Git &amp; GitHub</button></li>
+<li><button type="button" class="chip" aria-expanded="false" data-desc="I work on feature branches and open pull requests so teammates can review changes before they merge.">Branches &amp; pull requests</button></li>
 </ul>
+<p class="skill-detail" aria-live="polite" hidden></p>
 </div>
 <div class="skill-group">
 <h3>Business &amp; Operations</h3>
 <ul class="chips">
-<li>Incident vs. problem management</li>
-<li>Scenario planning</li>
-<li>Team collaboration</li>
-<li>Presenting</li>
+<li><button type="button" class="chip" aria-expanded="false" data-desc="An incident is a single disruption, like a scanner failing at one dock. A problem is a recurring pattern of related incidents that needs a root-cause fix.">Incident vs. problem management</button></li>
+<li><button type="button" class="chip" aria-expanded="false" data-desc="I build &quot;what if&quot; scenarios to explain why an issue matters and compare ways to resolve it.">Scenario planning</button></li>
+<li><button type="button" class="chip" aria-expanded="false" data-desc="I work in teams with shared working agreements, splitting tasks and coordinating through Git.">Team collaboration</button></li>
+<li><button type="button" class="chip" aria-expanded="false" data-desc="I present ideas and project results clearly to peers and stakeholders.">Presenting</button></li>
 </ul>
+<p class="skill-detail" aria-live="polite" hidden></p>
 </div>
 </div>
 </section>
@@ -124,6 +126,21 @@ if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target
 });
 }, { threshold: 0.12 });
 document.querySelectorAll('.reveal').forEach((el) => io.observe(el));
+
+// Skill chips: click to show a description, click again to hide
+document.querySelectorAll('.skill-group').forEach((group) => {
+const detail = group.querySelector('.skill-detail');
+group.querySelectorAll('.chip').forEach((chip) => {
+chip.addEventListener('click', () => {
+const open = chip.getAttribute('aria-expanded') === 'true';
+group.querySelectorAll('.chip').forEach((c) => c.setAttribute('aria-expanded', 'false'));
+if (open) { detail.hidden = true; return; }
+chip.setAttribute('aria-expanded', 'true');
+detail.textContent = chip.dataset.desc;
+detail.hidden = false;
+});
+});
+});
 </script>
 </body>
 </html>
